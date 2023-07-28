@@ -5,11 +5,13 @@ written for personal use
 输入archinstall
 清华源
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
+
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 
 上交源
 Server = https://mirror.sjtu.edu.cn/archlinux/$repo/os/$arch
+
 [archlinuxcn]
 Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 
