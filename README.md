@@ -39,3 +39,20 @@ pacman -S fcitx5-chinese-addons fcitx5-git fcitx5-gtk fcitx5-qt fcitx5-pinyin-zh
 paru -S fcitx5-input-support
 
 reboot 之后ctrl+space即可开始愉快地输入汉字了
+
+设置代理
+paru -S clash-for-windows-chinese
+
+等待比较久
+
+启动之后前往我的梯子网站复制订阅连接
+
+7890是clash默认的端口
+
+vscode搜索proxy 输入http://127.0.0.1:7890
+
+git设置
+
+git config http.proxy http://127.0.0.1:7890
+
+git config https.proxy http://127.0.0.1:7890
