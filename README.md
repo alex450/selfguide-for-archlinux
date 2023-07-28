@@ -3,9 +3,13 @@ written for personal use
 
 首先
 输入archinstall
+
 设置各类选项 语言选zh_cn.utf8
+
 完成后chroot
+
 pacman -S wqy-microhei (也可以是别的字体)
+
 清华源
 
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinux/$repo/os/$arch
