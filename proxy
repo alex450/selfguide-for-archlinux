@@ -16,4 +16,6 @@ nano /etc/profile
 export https_proxy=http://127.0.0.1:7890
 export http_proxy=http://127.0.0.1:7890
 export all_proxy=socks5://127.0.0.1:7890
-export no_proxy=localhost, 127.0.0.0/8, ::1
+#export no_proxy=localhost, 127.0.0.0/8, ::1
+
+第四行会导致 kde从系统设置获取主题 这一行为 产生崩溃，目前汇报了bug
