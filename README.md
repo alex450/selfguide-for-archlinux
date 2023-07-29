@@ -49,6 +49,12 @@ paru -S clash-for-windows-chinese
 
 7890是clash默认的端口
 
+首先设置系统代理
+
+例外填写localhost, 127.0.0.0/8, ::1
+
+firefox设置 http 代理 127.0.0.1 端口7890
+
 vscode搜索proxy 输入http://127.0.0.1:7890
 
 git设置
