@@ -1,0 +1,19 @@
+不同的系统程序有不同的代理设置 比如firefox可以内置指定代理
+如果安装了edge就不行 edge依赖于系统的环境变量
+
+部分cli程序需要安装proxychains
+pacman -S proxychains
+vim /etc/proxychains.conf
+设置为
+http 127.0.0.1 7890
+之后使用时参考以下格式
+proxychains paru -S packagename
+
+修改系统变量
+nano /etc/profile
+增加以下几行
+
+export https_proxy=http://127.0.0.1:7890
+export http_proxy=http://127.0.0.1:7890
+export all_proxy=socks5://127.0.0.1:7890
+export no_proxy=localhost, 127.0.0.0/8, ::1
