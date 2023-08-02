@@ -1,6 +1,9 @@
 不同的系统程序有不同的代理设置 比如firefox可以内置指定代理
 如果安装了edge就不行 edge依赖于系统的环境变量
 
+clash pkg
+https://github.com/Fndroid/clash_for_windows_pkg/releases
+
 部分cli程序需要安装proxychains
 pacman -S proxychains
 vim /etc/proxychains.conf
@@ -8,6 +11,10 @@ vim /etc/proxychains.conf
 http 127.0.0.1 7890
 之后使用时参考以下格式
 proxychains paru -S packagename
+
+git设置
+git config http.proxy http://127.0.0.1:7890
+git config https.proxy http://127.0.0.1:7890
 
 修改系统变量
 nano /etc/profile
