@@ -4,6 +4,8 @@
 clash pkg
 https://github.com/Fndroid/clash_for_windows_pkg/releases
 
+kde proxy选择使用系统代理服务器配置
+
 部分cli程序需要安装proxychains
 pacman -S proxychains
 vim /etc/proxychains.conf
