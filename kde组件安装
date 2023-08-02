@@ -1,0 +1,4 @@
+分区管理器
+pacman -S partitionmanager
+kdewallet管理工具
+pacman -S kwalletmanager
