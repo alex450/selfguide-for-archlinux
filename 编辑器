@@ -1,0 +1,14 @@
+默认在使用wayland session的DE
+
+[vscode]
+pacman -S code
+vscode不可在sudo环境下运行，需要
+
+[nvim]
+pacman -S nvim
+
+参考
+https://www.lazyvim.org/installation
+
+非sudo下执行
+git clone https://github.com/LazyVim/starter ~/.config/nvim
