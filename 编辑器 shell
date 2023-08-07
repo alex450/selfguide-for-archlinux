@@ -12,3 +12,5 @@ https://www.lazyvim.org/installation
 
 非sudo下执行
 git clone https://github.com/LazyVim/starter ~/.config/nvim
+
+shell使用fish 不建议ohmyzsh,那个有点卡
